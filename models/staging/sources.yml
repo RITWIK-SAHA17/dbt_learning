@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: DB
+    schema: DBT_FIRST
+    tables:
+      - name: customers
+      - name: orders
+      - name: produts
+
