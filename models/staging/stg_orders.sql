@@ -1,0 +1,13 @@
+WITH source AS (
+    SELECT *
+    FROM {{ source('raw', 'orders') }}
+)
+
+SELECT
+    order_id,
+    customer_id,
+    product_id,
+    order_date,
+    quantity,
+    total_amount
+FROM source
