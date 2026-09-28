@@ -3,9 +3,9 @@ version: 2
 sources:
   - name: raw
     database: DB
-    schema: DBT_FIRST
+    schema: RAW_SCHEMA
     tables:
       - name: customers
       - name: orders
-      - name: produts
-
+      - name: products
+      
